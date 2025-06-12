@@ -5,7 +5,7 @@
 var maxAdjacentDistance = function(nums) {
 
     let maxDiff = 0; // armazena a maior diferença que foi encontrada ate agora
-    const tamanho = nums.legth; // guarda o tamanho do arry
+    const tamanho = nums.length; // guarda o tamanho do arry
 
     //Pecorre cada elemento do arry
     for (let i = 0; i < tamanho; i++){
